@@ -1,0 +1,32 @@
+.footer{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  background-color: var(--accentColour);
+
+  &__contacts{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    a{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--secondaryColour);
+      padding-right: 10px;
+
+      .icon-sm{
+        width: 18px;
+        height: 18px;
+      }
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}

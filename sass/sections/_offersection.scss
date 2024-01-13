@@ -1,0 +1,37 @@
+.offer{
+  padding-top: 60px;
+  padding-bottom: 38px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 90px;
+
+  &__item{
+    text-align: center;
+    height: 100%;
+    &:nth-child(1){
+      padding-left: 40px;
+    }
+    &:nth-child(3){
+      padding-right: 40px;
+    }
+    .icon{
+      width: 56px;
+      height: 56px;
+    }
+
+    &-title{
+      color: var(--accentColour);
+      font-size: 24px;
+      line-height: 1.3;
+      padding-top: 30px;
+      padding-bottom: 20px;
+    }
+
+    &-desc{
+      color: var(--mainColour);
+      max-width: 300px;
+      font-weight: 500;
+    }
+  }
+}

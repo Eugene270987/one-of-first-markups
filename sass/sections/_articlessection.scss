@@ -1,0 +1,34 @@
+.articles{
+  padding-top: 60px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0 84px;
+  background: url("../img/article_bg.jpg") center / cover no-repeat;
+  color: var(--secondaryColour);
+
+  a{
+    color: var(--secondaryColour);
+    display: block;
+    &:hover{
+      color: var(--activeColour);
+    }
+  }
+  &__title{
+    grid-column: span 3;
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+
+  &__last{
+    height: 100%;
+
+    &-title{
+      padding-top: 24px;
+      width: 100%;
+      max-width: 335px;
+      font-size: 16px;
+      line-height: 1.3;
+    }
+  }
+}

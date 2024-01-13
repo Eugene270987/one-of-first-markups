@@ -1,0 +1,56 @@
+.feedback {
+  padding-bottom: 60px;
+  padding-top: 60px;
+  &__clients{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__title{
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+  &__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 43px;
+    max-width: 720px;
+    width: 100%;
+
+    &-name{
+      font-size: 18px;
+      line-height: 1.3;
+      color: var(--accentColour);
+      margin-left: 32px;
+    }
+
+    &-img{
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+    }
+
+    &-desc{
+      margin-top: 30px;
+      font-weight: 300;
+    }
+
+    &-card{
+      max-width: 600px;
+      width: 100%;
+      background-color: #ADDDDE;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      padding-bottom: 20px;
+      padding-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.promo{
+  padding-top: 241px;
+  padding-bottom: 358px;
+  background: url("../img/promo_bg.jpg") center / cover no-repeat;
+  color: var(--secondaryColour);
+  border: 2px solid var(--activeColour);
+
+  h1{
+    font-size: 48px;
+    margin-bottom: 55px;
+    max-width: 454px;
+  }
+
+  p{
+    font-size: 24px;
+    max-width: 330px;
+    margin-bottom: 55px;
+  }
+}

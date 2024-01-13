@@ -1,0 +1,16 @@
+body{
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.container{
+  padding-left: calc(50vw - 585px);
+  padding-right: calc(50vw - 585px);
+}
+
+h1,h2,h3,h4,legend{
+  font-family: 'Oswald', 'Arial', sans-serif;
+  font-weight: 700;
+}

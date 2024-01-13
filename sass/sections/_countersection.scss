@@ -1,0 +1,36 @@
+.counter{
+  background: url("../img/counter_bg.jpg") center / cover no-repeat;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 90px;
+  color: var(--secondaryColour);
+
+  &__block{
+    height: 100%;
+    text-align: center;
+    &:nth-child(1){
+      padding-left: 35px;
+    }
+    &:nth-child(3){
+      padding-right: 35px;
+    }
+
+    &-title{
+      font-size: 24px;
+      margin-bottom: 20px;
+      line-height: 1.3;
+    }
+
+    &-title-main{
+      font-size: 48px;
+      margin-bottom: 14px;
+    }
+    
+    &-desc{
+      width: 300px;
+    }
+  }
+}

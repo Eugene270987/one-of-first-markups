@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Psychologist</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header container">
+        <a class="logo" href="#">
+            <img src="./img/logo.png" alt="Logo">
+        </a>
+        <nav class="header__navbar">
+            <ul class="header__menu">
+                <li class="header__menu-item"><a class="link__active" href="#" aria-label="Главная">Главная</a></li>
+                <li class="header__menu-item"><a href="#" aria-label="Мероприятия">Мероприятия</a></li>
+                <li class="header__menu-item"><a href="#" aria-label="Контакты">Контакты</a></li>
+                <li class="header__menu-item"><a href="#" aria-label="Блог">Блог</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="promo container">
+            <h1>
+                Ваш личный психолог
+                В Кривом Роге
+            </h1>
+            <p>
+                Личные, семейные и
+                групповые консультации
+            </p>
+            <a href="#" class="btn" aria-label="узнать больше">узнать больше</a>
+        </section>
+        <section class="offer container">
+            <article class="offer__item">
+                <svg class="icon">
+                        <use xlink:href="img/sprite.svg#goal"></use>
+                </svg>
+                <h3 class="offer__item-title">
+                        Личные консультации
+                </h3>
+                <p class="offer__item-desc">
+                        Достижения поставленных целей
+                        бывает сложной задачей, но при правильной поддержке нет ничего не возможного
+                </p>
+            </article>
+            <article class="offer__item">
+                <svg class="icon">
+                        <use xlink:href="img/sprite.svg#family"></use>
+                </svg>
+                <h3 class="offer__item-title">
+                        Семейная терапия
+                </h3>
+                <p class="offer__item-desc">
+                        У любой семьи бывают кризисные ситуации, поэтому в такие моменты важно поддерживать друг друга
+                </p>
+            </article>
+            <article class="offer__item">
+                <svg class="icon">
+                        <use xlink:href="img/sprite.svg#group"></use>
+                </svg>
+                <h3 class="offer__item-title">
+                        Сенситивные группы
+                </h3>
+                <p class="offer__item-desc">
+                        Групповые занятия — отличное место, чтобы научиться общаться с окружающими людьми и раскрыть свой потенциал
+                </p>
+            </article>
+        </section>
+        <section class="about container">
+            <h2 class="about__title">Немного обо мне</h2>
+            <img class="about__pic" src="./img/about_me-pic.jpg" alt="my_picture">
+            <p class="about__desc">
+                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
+                Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.
+                Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами.
+                Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо.
+            </p>
+            <div class="btn__wrapper">
+                <a href="#" class="btn btn__bordered" aria-label="Задать вопрос">Задать вопрос</a>
+                <a href="#" class="btn" aria-label="Хочу консультацию">Хочу консультацию</a>
+            </div>
+        </section>
+        <section class="booking container">
+            <form class="booking__form" method="post" action="#">
+                <fieldset class="booking__form-grid">
+                    <legend>Записаться на прием</legend>
+                    <input class="input" type="text" name="name" placeholder="Ваше имя *">
+                    <textarea class="preferences" name="preferences">Пожелания</textarea>
+                    <input class="input" type="tel" name="phone" placeholder="Ваш телефон *">
+                    <div class="select__wrapper">
+                        <select name="topic">
+                            <option value="topic_name">Тема встречи *</option>
+                            <option value="topic1">Депрессия</option>
+                            <option value="topic2">Семейные отношения</option>
+                        </select>
+                    </div>
+                    <label class="privacy__label">
+                        <input class="privacy__label-checkbox" type="checkbox" name="agree">
+                        <span class="privacy__label-fake"></span>
+                        Я согласен с политикой конфиденциальности
+                    </label>
+                    <button type="button" class="btn">отправить</button>
+                </fieldset>
+            </form>
+        </section>
+        <section class="counter container">
+            <article class="counter__block">
+                <h2 class="counter__block-title-main">120 мин</h2>
+                <h3 class="counter__block-title">Время консультации</h3>
+                <p class="counter__block-desc">
+                    Оптимально для того, чтобы найти выход и сделать очередной шаг
+                </p>
+            </article>
+            <article class="counter__block">
+                <h2 class="counter__block-title-main">от 200 грн</h2>
+                <h3 class="counter__block-title">Стоимость</h3>
+                <p class="counter__block-desc">
+                    Цена доступна для любого человека, нуждающего в помощи
+                </p>
+            </article>
+            <article class="counter__block">
+                <h2 class="counter__block-title-main">75+</h2>
+                <h3 class="counter__block-title">Довольных клиентов</h3>
+                <p class="counter__block-desc">
+                    Результат — улыбка на лице и ощущение счастья
+                </p>
+            </article>
+        </section>
+        <section class="feedback container">
+            <article class="feedback__clients">
+                <h2 class="feedback__title">Отзывы клиентов</h2>
+                <div class="feedback__block">
+                    <button type="button" class="btn-previous"></button>
+                    <div class="feedback__block-card">
+                        <img class="feedback__block-img" src="./img/client_pic-1.jpg" alt="client photo" />
+                        <h4 class="feedback__block-name">Марина, 25 лет</h4>
+                        <p class="feedback__block-desc">
+                            Обратилась к Сергею, потому что нервы уже были на пределе. Ситуация
+                            казалась мне безвыходной – несмотря на то, что я работаю и учусь.
+                            Сама не заметила, как избавилась от огромного кома. Наконец-то
+                            увидела выход из сложившейся ситуации и теперь есть надежда...
+                            Большое спасибо Валентину.
+                        </p>
+                    </div>
+                    <button type="button" class="btn-next"></button>
+                </div>
+            </article>
+        </section>
+        <section class="articles container">
+            <h2 class="articles__title">Последние статьи</h2>
+            <article class="articles__last">
+                <a href="#">
+                    <img class="last__articles-img" src="./img/newspic_1.jpg" alt="article image" />
+                </a>
+                <h3 class="articles__last-title">
+                    <a href="#">Жить, а не бояться: как справляться с канцерофобией</a>
+                </h3>
+            </article>
+            <article class="articles__last">
+                <a href="#">
+                    <img class="last__articles-img" src="./img/newspic_2.jpg" alt="article image" />
+                </a>
+                <h3 class="articles__last-title">
+                    <a href="#">Брат мой, враг мой: почему враждуют братья и сестры?</a>
+                </h3>
+            </article>
+            <article class="articles__last">
+                <a href="#">
+                    <img class="last__articles-img" src="./img/newspic_3.jpg" alt="article image" />
+                </a>
+                <h3 class="articles__last-title">
+                    <a href="#">8 советов, как оставаться продуктивным и не сойти с ума</a>
+                </h3>
+            </article>
+        </section>
+        <section class="questions container">
+            <h2 class="questions__title">Частые вопросы</h2>
+            <article class="questions__tab">
+                <input type="checkbox" id="tab1" />
+                <label for="tab1" class="questions__tab-title">
+                    Какой у вас график работы?
+                </label>
+                <p class="questions__tab-desc">
+                    Я работаю провожу консультации с понедельника по субботу с 15:00 до
+                    21:00. Записаться на прием можно в любой день с 9:00 до 21:00
+                </p>
+            </article>
+
+            <article class="questions__tab">
+                <input type="checkbox" id="tab2" />
+                <label for="tab2" class="questions__tab-title">
+                    Сколько длится сессия?
+                </label>
+                <p class="questions__tab-desc">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+                    iure consequuntur corrupti earum impedit aperiam aliquid autem,
+                    dolores, illum obcaecati accusantium? Ducimus cumque at suscipit,
+                    repellat dolorum dolores rerum officiis! Ratione enim assumenda
+                    maiores deserunt.
+                </p>
+            </article>
+
+            <article class="questions__tab">
+                <input type="checkbox" id="tab3" />
+                <label for="tab3" class="questions__tab-title">
+                    Сколько стоит консультация?
+                </label>
+                <p class="questions__tab-desc">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+                    iure consequuntur corrupti earum impedit aperiam aliquid autem,
+                    dolores, illum obcaecati accusantium? Ducimus cumque at suscipit,
+                    repellat dolorum dolores rerum officiis! Ratione enim assumenda
+                    maiores deserunt.
+                </p>
+            </article>
+
+            <article class="questions__tab">
+                <input type="checkbox" id="tab4" />
+                <label for="tab4" class="questions__tab-title">
+                    Что из себя представляют консультации?
+                </label>
+                <p class="questions__tab-desc">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
+                    iure consequuntur corrupti earum impedit aperiam aliquid autem,
+                    dolores, illum obcaecati accusantium? Ducimus cumque at suscipit,
+                    repellat dolorum dolores rerum officiis! Ratione enim assumenda
+                    maiores deserunt.
+                </p>
+            </article>
+        </section>
+        <section class="map">
+            <div class="container map__wrapper">
+                <article class="map__contacts">
+                    <h2 class="map__contacts-title">Контакты</h2>
+                    <p class="map__contacts-type">
+                        Тел:<a href="tel:+380991234567">+380 99 123 45 67</a>
+                    </p>
+                    <p class="map__contacts-type">
+                        Viber:<a href="tel:+380991234567">+380 99 123 45 67</a>
+                    </p>
+                    <p class="map__contacts-type">
+                        Telegram:<a href="#">@phyholog_sergei</a>
+                    </p>
+                    <p class="map__contacts-type">
+                        Instagram:<a href="#">@phyholog_sergei</a>
+                    </p>
+                    <p class="map__contacts-type">
+                        E-mail:
+                        <a href="mailto:phyholog_sergei@gmail.com">
+                            phyholog_sergei@gmail.com
+                        </a>
+                    </p>
+                    <p class="map__contacts-type">
+                        Адрес:<a href="#">Ул. Центральная д. 10, офис 1</a>
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section class="discount container">
+            <h2 class="discount__title">Записаться со скидкой 50 грн</h2>
+            <form class="discount__form" action="#" method="post">
+                <input class="input" type="text" name="name" placeholder="Ваше имя *" />
+                <input class="input" type="tel" name="phone" placeholder="Ваш телефон *" />
+                <button type="button" class="btn discount__form-btn">Записаться со скидкой</button>
+            </form>
+            <label class="privacy__label">
+                <input checked class="privacy__label-checkbox" type="checkbox" name="agree">
+                <span class="privacy__label-fake"></span>
+                Я согласен с политикой конфиденциальности
+            </label>
+        </section>
+    </main>
+    <footer class="footer container">
+        <a class="logo" href="#">
+            <img src="./img/logo.png" alt="Logo">
+        </a>
+        <div class="footer__contacts">
+            <a href="#">
+                <svg class="icon-sm">
+                    <use xlink:href="img/sprite_mini.svg#instagram"></use>
+                </svg>
+                @phyholog_sergei
+            </a>
+            <a href="viber://chat?number=+380991234567">
+                <svg class="icon-sm">
+                    <use xlink:href="img/sprite_mini.svg#viber"></use>
+                </svg>
+                +380 99 123 45 67
+            </a>
+            <a href="tg://resolve?domain=phyholog_sergei">
+                <svg class="icon-sm">
+                    <use xlink:href="img/sprite_mini.svg#telegram"></use>
+                </svg>
+                @phyholog_sergei
+            </a>
+            <a href="tel:+380991234567">
+                <svg class="icon-sm">
+                    <use xlink:href="img/sprite_mini.svg#call"></use>
+                </svg>
+                +380 99 123 45 67
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
